@@ -7,12 +7,9 @@ class CinemaHall {
     private static final int HEIGHT = 16;
     private static final int SPACE = 2;
 
-    public void print(Graphics g)
-    {
-        for (int j = 0; j < chairs[0].length; j++)
-        {
-            for (int i = 0; i < chairs.length; i++)
-            {
+    public void print(Graphics g) {
+        for (int j = 0; j < chairs[0].length; j++) {
+            for (int i = 0; i < chairs.length; i++) {
                 if (chairs[i][j])
                     g.setColor(Color.RED);
                 else
