@@ -24,4 +24,8 @@ public class CinemaJFrame extends JFrame {
         this.setContentPane(RecordsOfCinemaHall);
         this.pack();
     }
+
+    private void createUIComponents() {
+        canvasJPanel = new Canvas(cinemaHal);
+    }
 }
