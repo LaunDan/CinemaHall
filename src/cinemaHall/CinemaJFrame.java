@@ -21,7 +21,6 @@ public class CinemaJFrame extends JFrame {
     }
 
     public CinemaJFrame(){
-        RecordsOfCinemaHall.setVisible(true);
-        canvasJPanel.setVisible(true);
+
     }
 }
