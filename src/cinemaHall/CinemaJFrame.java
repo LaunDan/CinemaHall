@@ -13,10 +13,12 @@ public class CinemaJFrame extends JFrame {
 
     public static void main(String[] args) {
         JFrame frame = new CinemaJFrame();
+
         frame.setTitle("Cinema hall");
         frame.setSize(500, 500);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
+
     }
 
     public CinemaJFrame(){
