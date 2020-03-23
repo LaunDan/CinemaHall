@@ -12,11 +12,7 @@ public class CinemaJFrame extends JFrame {
 
 
     public static void main(String[] args) {
-
-        CinemaJFrame cinemaJFrame = new CinemaJFrame();
-        cinemaJFrame.setLocationRelativeTo(null);
-        cinemaJFrame.setVisible(true);
-        cinemaJFrame.setSize(500, 500);
+        JFrame frame = new CinemaJFrame();
 
     }
 
