@@ -1,13 +1,15 @@
 package cinemaHall;
 
-import java.awt.*;
+
+import java.awt.Color;
+import java.awt.Graphics;
 
 class CinemaHall {
     private boolean[][] chairs = new boolean[30][15];
     private static final int HEIGHT = 16;
     private static final int SPACE = 2;
 
-    public void print(Graphics g) {
+    public void printing(Graphics g) {
         for (int j = 0; j < chairs[0].length; j++) {
             for (int i = 0; i < chairs.length; i++) {
                 if (chairs[i][j])

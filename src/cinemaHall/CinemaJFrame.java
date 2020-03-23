@@ -1,7 +1,7 @@
 package cinemaHall;
 
 import javax.swing.*;
-import java.awt.*;
+
 
 public class CinemaJFrame extends JFrame {
     private JPanel RecordsOfCinemaHall;
@@ -13,7 +13,6 @@ public class CinemaJFrame extends JFrame {
 
     public static void main(String[] args) {
         JFrame frame = new CinemaJFrame();
-
         frame.setTitle("Cinema hall");
         frame.setSize(500, 500);
         frame.setVisible(true);
@@ -22,8 +21,10 @@ public class CinemaJFrame extends JFrame {
     }
 
     public CinemaJFrame(){
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(RecordsOfCinemaHall);
+
         this.pack();
     }
 

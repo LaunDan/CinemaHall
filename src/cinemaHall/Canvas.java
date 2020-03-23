@@ -1,7 +1,7 @@
 package cinemaHall;
 
 import javax.swing.*;
-import java.awt.*;
+import java.awt.Graphics;
 
 public class Canvas extends JPanel {
     private CinemaHall cinemaHal;
@@ -14,6 +14,6 @@ public class Canvas extends JPanel {
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        cinemaHal.print(g);
+        cinemaHal.printing(g);
     }
 }
