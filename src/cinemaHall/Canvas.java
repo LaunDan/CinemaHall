@@ -4,16 +4,16 @@ import javax.swing.*;
 import java.awt.Graphics;
 
 public class Canvas extends JPanel {
-    private CinemaHall cinemaHal;
+    private CinemaHall cinemaHa;
 
     public Canvas(CinemaHall cinemaHal) {
         super();
-        this.cinemaHal = cinemaHal;
+        this.cinemaHa = cinemaHal;
     }
 
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        cinemaHal.printing(g);
+        cinemaHa.printing(g);
     }
 }
