@@ -11,6 +11,7 @@ public class CinemaJFrame extends JFrame {
     private CinemaHall cinemaHal = new CinemaHall();
 
 
+
     public static void main(String[] args) {
         JFrame frame = new CinemaJFrame();
         frame.setTitle("Cinema hall");
@@ -28,7 +29,6 @@ public class CinemaJFrame extends JFrame {
         this.pack();
     }
 
-    private void createUIComponents() {
-        canvasJPanel = new Canvas(cinemaHal);
-    }
+
+    
 }
