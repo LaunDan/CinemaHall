@@ -28,7 +28,5 @@ public class CinemaJFrame extends JFrame {
 
         this.pack();
     }
-
-
     
 }
