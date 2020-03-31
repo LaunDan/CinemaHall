@@ -5,27 +5,24 @@ import javax.swing.*;
 
 public class CinemaJFrame extends JFrame {
     private JPanel RecordsOfCinemaHall;
-    private JPanel canvasJPanel;
-    private JButton saveJButton;
 
     private CinemaHall cinemaHal = new CinemaHall();
 
 
 
     public static void main(String[] args) {
-        JFrame frame = new CinemaJFrame();
-        frame.setTitle("Cinema hall");
-        frame.setSize(500, 500);
-        frame.setVisible(true);
-        frame.setLocationRelativeTo(null);
+        CinemaJFrame cinema = new CinemaJFrame();
+        cinema.setVisible(true);
+
 
     }
 
     public CinemaJFrame(){
-
+        this.setLocationRelativeTo(null);
+        this.setTitle("Cinema hall");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setContentPane(RecordsOfCinemaHall);
-
+        Canvas canvas = new Canvas(cinemaHal);
+        this.add(canvas);
         this.pack();
     }
     
