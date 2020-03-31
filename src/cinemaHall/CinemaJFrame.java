@@ -9,7 +9,6 @@ public class CinemaJFrame extends JFrame {
     private CinemaHall cinemaHal = new CinemaHall();
 
 
-
     public static void main(String[] args) {
         CinemaJFrame cinema = new CinemaJFrame();
         cinema.setVisible(true);
@@ -23,6 +22,7 @@ public class CinemaJFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Canvas canvas = new Canvas(cinemaHal);
         this.add(canvas);
+
         this.pack();
     }
     
