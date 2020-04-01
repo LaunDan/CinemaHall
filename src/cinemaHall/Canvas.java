@@ -15,7 +15,7 @@ public class Canvas extends JPanel {
         JButton button = new JButton();
 
         this.add(button);
-        
+
 
     }
 
